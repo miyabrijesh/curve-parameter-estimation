@@ -70,7 +70,7 @@ Those errors are at CSV rounding level, strongly supporting the rounded answer a
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python estimate_parameters.py --data data/xy_data.csv
+python estimate_parameters.py --data xy_data.csv
 ```
 
 This generates `output/fit_summary.json` and `output/curve_fit.png`.
