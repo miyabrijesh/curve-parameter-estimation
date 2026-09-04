@@ -61,7 +61,7 @@ def predicted_curve(parameters: np.ndarray, t: np.ndarray) -> tuple[np.ndarray, 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data", default="data/xy_data.csv")
+    parser.add_argument("--data", default="xy_data.csv")
     parser.add_argument("--output-dir", default="output")
     args = parser.parse_args()
     data = pd.read_csv(args.data)
